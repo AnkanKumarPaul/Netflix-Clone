@@ -1,0 +1,693 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(NetflixBGImage.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1700px, 100vw);
+    height: 100vh;
+    position: relative;
+    
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.60;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    
+}
+
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+}
+
+nav img {
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    font-family: "Martel Sans", sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.heroone {
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+
+.herotwo {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.herothree {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.separation {
+    height: 7px;
+    background-color: rgb(35, 35, 35);
+}
+
+.separationfirst {
+    height: 7px;
+    background-color: rgb(35, 35, 35);
+}
+
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.021);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.Selectbtn {
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 10;
+    margin-left: 57%;
+}
+
+#english {
+    background-color: white;
+    color: black;
+
+}
+
+.btn-red {
+    background-color: rgb(235, 0, 11);
+    color: white;
+    padding: 19.5px 28px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.btn-red-sm {
+    background-color: rgb(235, 0, 11);
+    color: white;
+    border-color: rgb(235, 0, 11);
+    font-size: x-small;
+    font-weight: normal;
+    padding: 7px 12px;
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.main input {
+    padding: 22px 160px 16px 15px;
+    font-size: 18px;
+    font-weight: 500;
+    border: solid;
+    border-width: thin;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.575);
+    color: white;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+    max-height: 100vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.first .wrap {
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+    max-height: 100vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.secImg video {
+    position: absolute;
+    margin-top: 6%;
+    top: 54px;
+    right: 0;
+    left: 10;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+}
+
+section.first>div :nth-child(1) {
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+section.first>div :nth-child(2) {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.secondvideoimg {
+    width: 90vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secondvideo {
+    position: absolute;
+    width: 10vw;
+    margin-top: 6%;
+    top: 51px;
+    right: 0;
+    left: 40;
+}
+
+.secImgthree {
+    position: relative;
+}
+
+.secImgthree img {
+    width: 45.5vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secImgthree video {
+    width: 350px;
+    position: absolute;
+    margin-bottom: 16%;
+    top: 55px;
+    right: 100px;
+}
+
+video.entertainmenttextfour {
+    height: 173px;
+}
+
+.secImgtwo img {
+    width: 40vw;
+    position: relative;
+}
+
+.secImgtwo .downloadGIF {
+    margin-top: 20%;
+    left: 38%;
+    position: absolute;
+    width: 5vw;
+}
+
+.faqu h2 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 48px;
+    margin-top: 5%;
+}
+
+.faqu {
+    background: black;
+    color: white;
+    padding: 34px;
+}
+
+.accordian {
+    margin: 60px auto;
+    width: 100%;
+    max-width: 80vw;
+    margin-top: 2%;
+}
+
+.accordian li {
+    list-style: none;
+    padding: 5px;
+}
+
+.accordian li label {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: #2d2d2d;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+
+.accordian li label:hover {
+    background-color: #414141;
+    transition: all 0.3s ease-out;
+}
+
+
+label::after {
+    content: '+';
+    font-size: xx-large;
+    position: absolute;
+    right: 50px;
+    align-items: center;
+    font-weight: normal;
+    transition: transform 0.1ms;
+}
+
+.accordian .content {
+    text-align: left;
+    padding: 0 20px;
+    background-color: #2d2d2d;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s, padding 0.3s;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+
+
+.accordian input[type="radio"]:checked+label+.content {
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+
+
+.accordian input[type="radio"]:checked+label::after {
+    transform: rotate(135deg);
+}
+
+
+
+footer h1 {
+    margin-top: 10%;
+}
+
+.herolast {
+    font-family: "Martel Sans", sans-serif;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+
+.thirdEmailbox {
+    padding: 22px 160px 16px 15px;
+    font-size: 18px;
+    font-weight: 500;
+    border: solid;
+    border-width: thin;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.575);
+    color: white;
+}
+
+.para {
+    margin-top: 5%;
+}
+
+.footer h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    color: rgba(255, 255, 255, 0.7);
+
+
+}
+
+.footer {
+    display: flex;
+    padding: 0px 10px;
+    justify-content: space-evenly;
+}
+
+.footer a {
+    display: flex;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 400;
+    font-size: x-small;
+    cursor: pointer;
+}
+
+h3 a {
+    padding: 0px 5px;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+h3 {
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    margin-top: 5%;
+    margin-left: 12.5%;
+    font-weight: 400;
+    font-size: x-small;
+}
+
+
+.Selectbtntwo {
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 10;
+    margin-left: 12%;
+}
+
+
+
+h6 {
+    color: rgba(255, 255, 255, 0.7);
+    margin-left: 12.5%;
+    font-weight: 400;
+    font-size: x-small;
+    margin-top: 2%;
+}
+
+.last {
+    margin-top: 6%;
+}
+
+@media screen and (max-width: 500px) {
+
+    .main {
+        background-image: url(NetflixBGImage.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: max(800px, 100vw);
+        height: 45vh;
+        position: relative;
+    }
+
+    .main .box {
+        height: 45vh;
+        width: 100%;
+        opacity: 0.60;
+        position: absolute;
+        top: 0;
+        background-color: black;
+    }
+
+    .separationfirst {
+        height: 7px;
+        background-color: rgb(35, 35, 35);
+        margin-top: 10%
+    }
+
+    .btn-red-sm {
+        font-size: x-small;
+        font-weight: normal;
+        padding: 7px 12px;
+    }
+
+    .hero-buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        flex-direction: column;
+    }
+
+    .main input {
+        padding: 22px 10px 16px 15px;
+        font-size: 18px;
+        font-weight: 500;
+        border: solid;
+        border-width: thin;
+        border-radius: 4px;
+        background-color: rgba(0, 0, 0, 0.575);
+        color: #6f6363;
+    }
+
+    .thirdEmailbox {
+        padding: 22px 10px 16px 15px;
+        font-size: 18px;
+        font-weight: 500;
+        border: solid;
+        border-width: thin;
+        border-radius: 4px;
+        background-color: rgba(0, 0, 0, 0.575);
+        color: #6f6363;
+    }
+
+    .faqu h2 {
+        text-align: center;
+        font-weight: 550;
+        font-size: 30px;
+        margin-top: 5%;
+    }
+
+    .accordian {
+        margin: 60px auto;
+        width: 90%;
+        max-width: 80vw;
+        margin-top: 2%;
+    }
+
+    .accordian li label {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: 500;
+        background-color: #2d2d2d;
+        margin-bottom: 2px;
+        cursor: pointer;
+        position: relative;
+    }
+
+    label::after {
+        content: '+';
+        font-size: x-large;
+        position: absolute;
+        right: 20px;
+        align-items: center;
+        font-weight: normal;
+        transition: transform 0.1ms;
+    }
+
+    .heroone {
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .herotwo {
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .herothree {
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    nav {
+        max-width: 75vw;
+        justify-content: space-between;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        height: 62px;
+    }
+
+    nav img {
+        width: 100px;
+        position: relative;
+        z-index: 10;
+        margin-top: 20%
+    }
+
+    .Selectbtn {
+        padding: 5.5px 1px;
+        font-weight: 400;
+        color: white;
+        background-color: black;
+        border-radius: 4px;
+        cursor: pointer;
+        z-index: 10;
+        margin-left: 7%;
+        margin-top: 4%
+    }
+
+    .btn-red-sm {
+        background-color: rgb(235, 0, 11);
+        color: white;
+        border-color: rgb(235, 0, 11);
+        font-size: x-small;
+        font-weight: normal;
+        padding: 8px 12px;
+        margin-top: 15%;
+    }
+
+    .first {
+        display: flex;
+        justify-content: center;
+        max-width: 80vw;
+        max-height: 100%;
+        margin: auto;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+
+    section.first>div :nth-child(1) {
+        font-size: 35px;
+        font-weight: 600;
+        margin-right: 6%;
+        text-align: -webkit-center;
+    }
+
+    section.first>div :nth-child(3) {
+        font-size: small;
+        text-align: -webkit-center
+    }
+
+    .secImg img {
+        width: 70vw;
+        position: relative;
+        z-index: 10;
+    }
+
+    .secImg video {
+        position: r;
+
+        top: 14%;
+        right: 0;
+        left: 10;
+        width: 60vw;
+    }
+
+    .secImgtwo img {
+        width: 70vw;
+        position: relative;
+    }
+
+    .secImgtwo img {
+        margin-top: 10%;
+        width: 80vw;
+        position: relative;
+    }
+
+    .secImgtwo .downloadGIF {
+        margin-top: 46%;
+        left: 65%;
+        position: absolute;
+        width: 11.5vw;
+    }
+
+      .secImgthree img {
+    width: 70vw;
+    position: relative;
+    z-index: 10;
+}
+
+    .secImgthree video {
+    width: 170px;
+    position: absolute;  
+    top: 25px;
+    right: 65px;
+}
+
+   
+    .zero {
+        flex-wrap: wrap-reverse;
+    }
+
+    .footer {
+        display: grid;
+        flex-direction: column;
+        gap: 25x;
+    }
+
+    .col {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-bottom: 10px;
+        margin-left: 10%;
+    }
+
+    .footer .col {
+        display: grid;
+        grid-template: 1fr 1fr;
+        gap: 25x;
+
+    }
+
+}
